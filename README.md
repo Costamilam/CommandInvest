@@ -16,5 +16,6 @@ http://commandinvest.com.br
  - Links para os produtos da empresa
  - Informações para contato
  - Formulário para contato
+ - Chat em tempo real com funcionários da empresa
 
 A primeira versão não é de minha autoria
