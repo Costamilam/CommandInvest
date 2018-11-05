@@ -1,6 +1,6 @@
 # CommandInvest
 
-Segunda e terceira versão do novo site estático da empresa CommandInvest com:
+Nova versão do site estático da empresa CommandInvest:
 
 **Recursos**
 
