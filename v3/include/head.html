@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<!--
+	Cube by FreeHTML5.co
+	Twitter: http://twitter.com/gettemplateco
+	URL: http://freehtml5.co
+-->
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CommandInvest &mdash; Incorporadora e Construtora</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="A CommandInvest atua como incorporadora e construtora, além da gestão de projetos destinados a investidores." />
+	<meta name="keywords" content="CommandInvest, Command, Investimento, lucro, renda, condo-hotel" />
+	<meta name="author" content="Guilherme Costamilam" />
+
+	<link rel="shortcut icon" href="./images/commandinvest_icone.png">
+
+	<!-- Facebook and Twitter integration -->
+	<!--meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" /-->
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,700" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Themify Icons-->
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126426371-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		let isOpen = false;
+	</script>
+
+	<!-- Smartsupp Live Chat script -->
+	<script type="text/javascript">
+		var _smartsupp = _smartsupp || {};
+		_smartsupp.key = 'f1373cdf7909677323fca61f316709add56923ee';
+		window.smartsupp || (function (d) {
+			var s, c, o = smartsupp = function () { o._.push(arguments) }; o._ = [];
+			s = d.getElementsByTagName('script')[0]; c = d.createElement('script');
+			c.type = 'text/javascript'; c.charset = 'utf-8'; c.async = true;c.src = 'https://www.smartsuppchat.com/loader.js?';
+			c.addEventListener('load', function() {
+				const iframeDocument = document.querySelector('iframe').contentDocument;
+				(function verify() {
+					if (iframeDocument.getElementById('widgetPanel') === null) {
+						setTimeout(verify, 500);
+					} else {
+						iframeDocument.getElementById('widgetPanel').addEventListener('click', function() {
+							if(!isOpen) {
+								gtag('event', 'chat', {
+									'event_label' : 'opened',
+									'value': 'true'
+								});
+								isOpen = true;
+							}
+						});
+					}
+				})()
+			});
+			s.parentNode.insertBefore(c, s);
+		})(document);
+	</script>
+
+	<link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+	<div class="gtco-loader"></div>
+
+	<div id="page">
+		<nav class="gtco-nav large" role="navigation">
+			<div class="gtco-container">
+				<div class="row">
+					<div class="col-sm-2 col-xs-12">
+						<div id="gtco-logo">
+							<img src="images/logo_header.png" alt="Logo CommandInvest">
+						</div>
+					</div>
+
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li><a href="./home">Home</a></li>
+							<li class="has-dropdown"><a href="#!">Institucional</a>
+								<ul class="dropdown">
+									<li><a href="./about">Quem Somos</a></li>
+									<li><a href="./job">Trabalhe Conosco</a></li>
+								</ul>
+							</li>
+							<li class="has-dropdown"><a href="#!">Investimentos</a>
+								<ul class="dropdown">
+									<li><a id="plazaHeadLink" target="_blank" href="http://hotelplazacanela.com">Plaza Canela</a></li>
+									<li><a id="aionHeadLink" target="_blank" href="http://aionabsoluto.com.br">AION Absoluto</a></li>
+								</ul>
+							</li>
+							<li><a href="./con">Contato</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<script>
+			document.getElementById('plazaHeadLink').addEventListener('click', () => 
+				gtag('event', 'redirect', {
+					'event_category' : 'intern',
+					'event_label': 'Plaza'
+				})
+			);
+			document.getElementById('aionHeadLink').addEventListener('click', () => 
+				gtag('event', 'redirect', {
+					'event_category' : 'intern',
+					'event_label': 'AION'
+				})
+			);
+		</script>

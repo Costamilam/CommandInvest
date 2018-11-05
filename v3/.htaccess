@@ -1,0 +1,17 @@
+RewriteEngine On
+
+# Forçar acesso via HTTPS
+RewriteCond %{HTTP:X-Forwarded-Proto} !https [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://commandinvest.com%{REQUEST_URI} [L,NE,R=301]
+
+# Esconder extensão .php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]*)$ $1\.php [L]
+
+# Redirecionar para a URL /home na página inicial
+Redirect /index.php https://commandinvest.com/home
+
+# 404 redireciona para a página inicial
+ErrorDocument 404 https://commandinvest.com/home

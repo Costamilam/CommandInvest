@@ -1,0 +1,144 @@
+a {
+	transition: unset !important;
+}
+.gtco-nav-toggle i, .gtco-nav-toggle i::before, .gtco-nav-toggle i::after {
+	background-color: #c4a166;
+}
+.gtco-nav-toggle {
+	position: fixed;
+	transition: linear 0.5s !important;
+}
+#gtco-logo img {
+	height: 50px;
+	transition: linear 0.5s;
+}
+a.btn {
+	transition: linear 0.5s !important;
+}
+.gtco-nav {
+	position: fixed;
+	transition: linear 0.5s;
+	background: linear-gradient(to right, rgba(200, 200, 200, 0.7), rgba(0, 0, 0, 0.7));
+}
+.gtco-nav ul li a {
+	font-weight: bold;
+}
+.large {
+	line-height: 5;
+}
+.gtco-cover {
+	height: 700px;
+}
+.gtco-header {
+	background-position: center;
+}
+.gtco-header-home {
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-image: 
+	    repeating-linear-gradient(90deg, transparent 0px, transparent 3px, rgba(0, 0, 0, 0.15) 3px, rgba(0, 0, 0, 0.15) 4px), 
+	    repeating-linear-gradient(0deg, transparent 0px, transparent 3px, rgba(0, 0, 0, 0.15) 3px, rgba(0, 0, 0, 0.15) 4px),
+      	linear-gradient(to right bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.25)),
+      	url(../images/home.jpg) !important;
+}
+.gtco-header-contact {
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-image: 
+	    repeating-linear-gradient(90deg, transparent 0px, transparent 3px, rgba(0, 0, 0, 0.15) 3px, rgba(0, 0, 0, 0.15) 4px), 
+	    repeating-linear-gradient(0deg, transparent 0px, transparent 3px, rgba(0, 0, 0, 0.15) 3px, rgba(0, 0, 0, 0.15) 4px),
+      	linear-gradient(to right bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.25)),
+      	url(../images/contact.jpg) !important;
+}
+.gtco-header-investment {
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-image: 
+	    repeating-linear-gradient(90deg, transparent 0px, transparent 3px, rgba(0, 0, 0, 0.15) 3px, rgba(0, 0, 0, 0.15) 4px), 
+	    repeating-linear-gradient(0deg, transparent 0px, transparent 3px, rgba(0, 0, 0, 0.15) 3px, rgba(0, 0, 0, 0.15) 4px),
+      	linear-gradient(to right bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.25)),
+      	url(../images/investment.jpg) !important;
+}
+.gtco-header-about {
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-image: 
+	    repeating-linear-gradient(90deg, transparent 0px, transparent 3px, rgba(0, 0, 0, 0.15) 3px, rgba(0, 0, 0, 0.15) 4px), 
+	    repeating-linear-gradient(0deg, transparent 0px, transparent 3px, rgba(0, 0, 0, 0.15) 3px, rgba(0, 0, 0, 0.15) 4px),
+      	linear-gradient(to right bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.25)),
+      	url(../images/about.jpeg) !important;
+}
+.gtco-header-job {
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-image: 
+	    repeating-linear-gradient(90deg, transparent 0px, transparent 3px, rgba(0, 0, 0, 0.15) 3px, rgba(0, 0, 0, 0.15) 4px), 
+	    repeating-linear-gradient(0deg, transparent 0px, transparent 3px, rgba(0, 0, 0, 0.15) 3px, rgba(0, 0, 0, 0.15) 4px),
+      	linear-gradient(to right bottom, rgba(50, 50, 50, 1), rgba(0, 0, 0, 0.25)),
+      	url(../images/job.jpeg) !important;
+}
+.header-img img, .gtco-services img {
+	width: 100%;
+}
+a, a:hover, a:focus, a:active, #gtco-footer h3, .gtco-nav-toggle i, .gtco-nav-toggle i::before {
+	color: #c4a166 !important;
+}
+h2 {
+	text-align: center;
+}
+.btn {
+	border: none;
+}
+.btn-white, .btn-white:focus, .btn-white:active, .btn-special:hover {
+	background-color: #fff;
+	color: #c4a166 !important;
+}
+.btn-white:hover, .btn-special, .btn-special:focus, .btn-special:active {
+	background-color: #c4a166;
+	color: #fff !important;
+}
+#titulo {
+    font-size: 45px;
+    font-weight: 500;
+    color: #c4a166 !important;
+}
+.gtco-client a i {
+	font-size: 2.5em;
+}
+
+#gtco-footer ul li {
+	list-style: none;
+}
+#gtco-footer ul {
+	padding: 0;
+}
+#gtco-footer {
+	color: white;
+}
+.gtco-social-icons li a {
+    padding: 5px 20px 5px 0;
+}
+.gtco-quick-contact li a {
+	transition: linear 0.5s !important;
+}
+.gtco-products .gtco-item .overlay:before {
+	background: linear-gradient(to right, #c4a166 0%, #000 100%) !important;
+}
+.gtco-heading {
+    margin-bottom: 2em;
+}
+.form-control:active, .form-control:focus {
+	border-color: #c4a166;
+}
+hr {
+	margin: 50px 0 15px 0;	
+}
+.copyright {
+	margin-bottom: 50px;
+}
+.gtco-nav ul li.active > a {
+	color: #fff !important;
+}
+#command {
+	padding-bottom: 50px;
+}
